@@ -1,0 +1,402 @@
+* {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #F3F5FC;
+    height: 100vh;
+}
+
+.brand-container {
+    padding: 16px;
+}
+
+.brand {
+    width: 31px;
+    height: 48px;
+    margin-left: 32px;
+}
+
+main {
+    margin: 22px 42px;
+    display: flex;
+    padding: 8px;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+/* Main Container Styles*/
+
+.main-container {
+    width: 100%;
+    padding: 16px;
+    margin-right: 64px;
+}
+
+.main-container textarea {
+    background: #F3F5FC;
+    color: #0A3871;
+    font-size: 24px;
+    resize: none;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.main-container textarea::placeholder {
+    color: #0A3871;
+}
+
+.main-container p {
+    width: 338px;
+    font-size: 14px;
+    padding: 8px;
+    color: #495057;
+}
+
+.info {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.btn-box {
+    padding: 8px 4px;
+}
+
+.btn-encrypt {
+    width: 328px;
+    height: 67px;
+    color: #fff;
+    padding: 24px;
+    background: #0A3871;
+    margin-right: 32px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-encrypt:hover {
+    background: #032a5a;
+}
+
+.btn-decrypt {
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    padding: 24px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.btn-decrypt:hover {
+    background: #cad2dc;
+}
+
+/* Sidebar Container Styles */
+
+.sidebar-container {
+    width: 500px;
+    height: 500px;
+    align-content: center;
+    background: #fff;
+    padding: 16px;
+    border-radius: 32px;
+    overflow: hidden;
+    margin-bottom: 64px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar-container img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.sidebar-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343A40;
+    text-align: center;
+    padding: 8px;
+}
+
+.message-text {
+    color: #495057;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.custom-text {
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-copy {
+    display: block;
+    margin-top: 24px;
+    width: 70%;
+    height: 57px;
+    text-align: center;
+    cursor: pointer;
+    margin: 32px auto;
+    background: #fff;
+    color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+}
+
+.btn-disabled {
+    display: none;
+    margin-top: 24px;
+    width: 70%;
+    height: 57px;
+    text-align: center;
+    cursor: pointer;
+    margin: 32px auto;
+    background: #fff;
+    color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+}
+
+hr {
+    width: 80%;
+    border: 0.5px solid #4950577b;
+}
+
+footer {
+    padding: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #495057;
+    font-family: sans-serif;
+}
+
+.github {
+    width: 28px;
+    margin: 8px auto;
+}
+
+
+/* Responsive 4K*/
+@media screen and (max-width: 2560px) {
+    main {
+        width: 80%;
+        margin-bottom: 128px;
+    }
+
+    .brand {
+        width: 45px;
+    }
+
+    .main-container textarea {
+        height: 768px;
+        font-size: 42px;
+    }
+
+    .main-container p {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .btn-box {
+        width: 100%;
+    }
+
+    .btn-encrypt {
+        width: 45%;
+    }
+
+    .btn-decrypt {
+        width: 45%;
+    }
+
+    .sidebar-container {
+        width: 35%;
+        height: 1024px;
+    }
+}
+
+/* Responsive 1080p*/
+@media screen and (max-width: 1920px) {
+    main {
+        width: 80%;
+        margin-bottom: 32px;
+    }
+
+    .brand {
+        width: 32px;
+    }
+
+
+    .main-container textarea {
+        height: 550px;
+        font-size: 32px;
+    }
+
+    .main-container p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .btn-box {
+        width: 100%;
+    }
+
+    .btn-encrypt {
+        width: 45%;
+    }
+
+    .btn-decrypt {
+        width: 45%;
+    }
+
+    .sidebar-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 35%;
+        height: 720px;
+    }
+}
+
+/* Responsive Tablet */
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        padding: 16px;
+        justify-content: center;
+    }
+
+    .brand {
+        height: 50px;
+    }
+
+    .main-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .main-container textarea {
+        font-size: 32px;
+    }
+
+    .main-container p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .btn-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn-encrypt {
+        width: 45%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-decrypt {
+        width: 45%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: static;
+        width: 688px;
+        height: auto;
+        padding: 16px;
+        min-height: 133px;
+        margin-top: 32px;
+    }
+
+    .sidebar-container img {
+        display: none;
+    }
+
+    .sidebar-container h3 {
+        font-size: 28px;
+    }
+
+    .sidebar-container p {
+        font-size: 18px;
+    }
+}
+
+/* Responsive Mobile */
+@media screen and (max-width: 320px) {
+    .brand {
+        height: 48px;
+        margin-left: 8px;
+    }
+
+    main {
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .main-container textarea {
+        font-size: 20px;
+    }
+
+    .main-container p {
+        font-size: 14px;
+    }
+
+    .btn-box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn-encrypt {
+        width: 100%;
+    }
+
+    .btn-decrypt {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .sidebar-container {
+        width: 327px;
+    }
+
+    .sidebar-container h3 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .sidebar-container p {
+        width: 263px;
+        font-size: 16px;
+    }
+
+    .btn-copy {
+        width: 263px;
+    }
+}
