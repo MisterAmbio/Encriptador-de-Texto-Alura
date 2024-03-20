@@ -2,11 +2,11 @@ Es una aplicación que encripta textos, así podrás intercambiar mensajes secre
 
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+La letra "e" es convertida para "enter"</b>
+La letra "i" es convertida para "imes"</b>
+La letra "a" es convertida para "ai"</b>
+La letra "o" es convertida para "ober"</b>
+La letra "u" es convertida para "ufat"</b>
 
 Por ejemplo:
 "gato" => "gaitober"
